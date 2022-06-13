@@ -1,0 +1,133 @@
+body {
+  margin:0;
+  padding:0;
+
+}
+
+.App {
+  text-align: center;
+}
+
+.images {
+  display: inline-flex;
+
+}
+
+ img {
+  width: 20%;
+  height: 100vh;
+}
+
+#first-txt {
+  margin-left: 7%;
+  margin-top: 25%;
+}
+
+
+#second-txt {
+  margin-left: 30%;
+  margin-top: 25%;
+}
+
+#third-txt {
+  margin-left: 47%;
+  margin-top: 25%;
+}
+
+#fourth-txt {
+  margin-left: 66%;
+  margin-top: 25%;
+}
+
+#fifth-txt {
+  margin-left: 85%;
+  margin-top: 25%;
+}
+
+
+
+h3 {
+  position: absolute;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: xx-large;
+  
+  color: aquamarine;
+}
+
+.header {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+  color:white
+}
+
+.logo-search {
+  display:flex;
+  flex-direction: row;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+  img {width: 100%;  height: 100px;}
+  .images {
+    display: block;
+    height: 100vh;
+  }
+
+  .currentDate {
+    display: none;
+  }
+
+  
+  .image_txt {
+    margin-left:47%;
+    font-size: xx-large;
+    color: white;
+    
+  }
+
+  
+  
+  #first-txt {
+    margin-left: 47%;
+    margin-top: -95%;
+  }
+
+  #second-txt {
+    position: absolute;
+    margin-left: 47%;
+    margin-top: -83%;
+  }
+
+  #second-txt {
+    position: absolute;
+    margin-left: 47%;
+    margin-top: -75%;
+  }
+  
+  #third-txt {
+    position: absolute;
+    margin-left: 47%;
+    margin-top: -55%;
+  }
+  
+  #fourth-txt {
+    position: absolute;
+    margin-left: 47%;
+    margin-top: -30%;
+  }
+  
+
+  #fifth-txt {
+    position: absolute;
+    margin-left: 47%;
+    margin-top: -15%;
+  }
+  
+  
+  
+}
+
+
